@@ -23,6 +23,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class AuthActivity extends BaseActivity {
     ActivityAuthBinding binding;
     private FirebaseAuth mAuth;
+
     public static String email, password;
 
 
@@ -41,6 +42,7 @@ public class AuthActivity extends BaseActivity {
 
                 if(email.isEmpty()){
                     binding.edtEmail.setError("Required!");
+
                     binding.edtEmail.requestFocus();
                     return;
                 }
@@ -122,6 +124,7 @@ public class AuthActivity extends BaseActivity {
     private boolean validateForm() {
         if (TextUtils.isEmpty(binding.edtEmail.getText().toString())) {
             binding.edtEmail.setError("Required!");
+
             binding.edtEmail.requestFocus();
             return false;
         } else if (TextUtils.isEmpty(binding.editPassword.getText().toString())) {
