@@ -24,6 +24,7 @@ import java.math.BigDecimal;
 public class PaypalPaymentActivity extends BaseActivity {
 
     String userId="";
+
     ActivityPaypalPaymentBinding binding;
     private int PAYPAL_REQ_CODE = 12;
     private static PayPalConfiguration payPalConfiguration = new PayPalConfiguration()

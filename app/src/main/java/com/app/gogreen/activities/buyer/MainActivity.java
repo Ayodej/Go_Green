@@ -34,8 +34,11 @@ import com.google.firebase.database.ValueEventListener;
 public class MainActivity extends BaseActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     ImageView imgUser;
-    TextView tvEmail , tvName;
+
+    TextView tvEmail ,  tvName;
+
     DatabaseReference databaseReference;
+
     public static String userId="", userName="", email="", address="", password="";
 
     @Override

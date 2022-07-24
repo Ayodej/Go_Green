@@ -32,7 +32,9 @@ import com.squareup.picasso.Picasso;
 public class PlantDetailsActivity extends BaseActivity {
 
     LocationManager locationManager;
+
     LocationListener locationListener;
+
     public static PlantModelClass model;
     ActivityPlantDetailsBinding binding;
     String userId="";
