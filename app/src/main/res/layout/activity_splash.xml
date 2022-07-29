@@ -12,6 +12,7 @@
         android:layout_height="130dp"
         android:src="@drawable/ic_logo"
         app:civ_border_color="@color/colorPrimary"
+
         app:civ_border_width="2dp"
         app:civ_border="true"
         android:layout_centerInParent="true"
